@@ -131,6 +131,7 @@ Feature List
 <summary>
 Customer\User Account
 </summary>
+	<pre>
 In this project the “Customer\User Account” has the following features:
 1)	Can sign up as a customer.
 2)	Can login as a customer.
@@ -147,6 +148,7 @@ In this project the “Customer\User Account” has the following features:
 13)	Can see people’s ratings on specific places.
 14)	Can rate their journey.
 15)	Can log out from the system.
+</pre>
 </details>
 
 <details>
