@@ -178,44 +178,44 @@ In this project the “Travel Agency Admin” has the following features:
 <summary>
 Hotel System Admin
 </summary>
-In this project the “Hotel System Admin” has the following features:
-1)	Can login as an admin.
-2)	Can add new hotels information.
-3)	Can add hotels according to level.
-4)	Can add rooms based on duration.
-5)	Can add room with many facilities or without. 
-6)	Can set hotels in system according to place and levels.
-7)	Can perform customer registration.
-8)	Can check in customers to their hotel.
-9)	Can check out customers from their hotel.
-10)	Can check all customer details (In hotel customers and checkout customers).
-11)	Can add employee to their system.
-12)	Can see employee details.
-13)	Can delete employee.
-14)	Can see whole history of their customer in hotels.
-15)	Can log out from the system.
+In this project the “Hotel System Admin” has the following features:<br><br>
+1)	Can login as an admin.<br>
+2)	Can add new hotels information.<br>
+3)	Can add hotels according to level.<br>
+4)	Can add rooms based on duration.<br>
+5)	Can add room with many facilities or without. <br>
+6)	Can set hotels in system according to place and levels.<br>
+7)	Can perform customer registration.<br>
+8)	Can check in customers to their hotel.<br>
+9)	Can check out customers from their hotel.<br>
+10)	Can check all customer details (In hotel customers and checkout customers).<br>
+11)	Can add employee to their system.<br>
+12)	Can see employee details.<br>
+13)	Can delete employee.<br>
+14)	Can see whole history of their customer in hotels.<br>
+15)	Can log out from the system.<br>
 </details>
 
 <details>
 <summary>
 Vehicles Rental Service Provider
 </summary>
-In this project the “Vehicles Rental Service Provider” has the following features:
-1)	Can login as an admin.
-2)	Can add new vehicles information.
-3)	Can add seat information according to vehicles.
-4)	Can add vehicles facilities information.
-5)	Can perform customer registration to rent vehicles.
-6)	Can book vehicles for customers.
-7)	Can check all customer details and their history.
-8)	Can add employee to their system.
-9)	Can see employee details.
-10)	Can delete employee.
-11)	Can set reservation for rent.
-12)	Can add vehicles rent info with customer details.
-13)	Can remove customer information 
-14)	Can see whole history of their customer with agency.
-15)	Can log out of from the system.
+In this project the “Vehicles Rental Service Provider” has the following features:<br><br>
+1)	Can login as an admin.<br>
+2)	Can add new vehicles information.<br>
+3)	Can add seat information according to vehicles.<br>
+4)	Can add vehicles facilities information.<br>
+5)	Can perform customer registration to rent vehicles.<br>
+6)	Can book vehicles for customers.<br>
+7)	Can check all customer details and their history.<br>
+8)	Can add employee to their system.<br>
+9)	Can see employee details.<br>
+10)	Can delete employee.<br>
+11)	Can set reservation for rent.<br>
+12)	Can add vehicles rent info with customer details.<br>
+13)	Can remove customer information. <br>
+14)	Can see whole history of their customer with agency.<br>
+15)	Can log out of from the system.<br>
 </details>
 </details>
 
