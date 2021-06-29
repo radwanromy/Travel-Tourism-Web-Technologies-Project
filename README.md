@@ -282,12 +282,6 @@ some features to improve our project.We can add some features for user like:
 We can add more details about toruism place & can improve our Home Page.We can open a suggestion section where user can suggested us their requirements,
 We will review their suggestions & if their requirements are valid then we will work on this, By this we can improve our project in future.
 
-
-
-(Maximum 80 words)
-
-
-
 </details>
 
 <h3>[Note: Make sure that your report is maximum 10 pages (including cover page). Print (Colored) the report and submit it with spiral bind.]</h3>
