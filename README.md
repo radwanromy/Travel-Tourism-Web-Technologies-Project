@@ -270,6 +270,7 @@ How will people be benefitted from your project?
 <details>
 <summary>
 Limitations and Possible Future Improvements
+</summary>
 	
 Since we are at the beginning level so there are some limitation in our project.Those limitations will be accomplished over time.We can add
 some features to improve our project.We can add some features for user like:
@@ -280,7 +281,7 @@ some features to improve our project.We can add some features for user like:
 
 We can add more details about toruism place & can improve our Home Page.We can open a suggestion section where user can suggested us their requirements,
 We will review their suggestions & if their requirements are valid then we will work on this, By this we can improve our project in future.
-</summary>
+
 
 
 (Maximum 80 words)
