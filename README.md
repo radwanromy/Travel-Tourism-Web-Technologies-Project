@@ -267,14 +267,14 @@ To develop this project, we have used the following:
 <details>
 <summary>
 System Images against the Specification
-	
+</summary>	
 ![Captqwdergsrtghryhryghure](https://user-images.githubusercontent.com/50805604/124065019-bf371480-da57-11eb-99f4-6ebefd5bd314.JPG)
 ![Captdcfsdfcadfcwsedfure](https://user-images.githubusercontent.com/50805604/124065023-c0684180-da57-11eb-9903-bdf2926bc4e0.JPG)
 ![Captdfgdfgdgedgure](https://user-images.githubusercontent.com/50805604/124065024-c100d800-da57-11eb-841c-945c6172444f.JPG)
 
 
 
-</summary>
+
 
 
 Give a screen shot of some GUIs (Midterm project) and write a very small description (Maximum 40 words) for each of the GUIs.
