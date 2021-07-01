@@ -105,7 +105,8 @@ online banking.
 <summary>
 Requirement Analysis
 </summary>
-</details>
+	<pre>
+
 
 <details>
 <summary>
@@ -218,8 +219,8 @@ In this project the “Vehicles Rental Service Provider” has the following fea
 15)	Can log out of from the system.<br>
 </details>
 </details>
-
-<details>
+</details>
+<details> 
 <summary>
 Design
 </summary>
@@ -245,9 +246,16 @@ To develop this project, we have used the following:
 •	Microsoft Word
 •	Smart Draw
 •	Snipping Tool
-•	.
-•	.
-•	
+•	PHP
+•	HTML
+•	Microsoft Word
+•	Smart Draw
+•	Snipping Tool
+•	Brackets
+•	Xampp
+•	VS code
+•	Microsoft Edge
+•	Chrome
 </details>
 
 <details>
@@ -262,10 +270,12 @@ Give a screen shot of some GUIs (Midterm project) and write a very small descrip
 <summary>
 Impact of this Project
 </summary>
-
-Describe the increasing importance of your project on modern society and environment.
-How will people be benefitted from your project? 
-(Maximum 80 words)
+With the evolving society and the increasing access to the internet nowadays it’s much easier and cost efficient to provide services to customers through different apps. Below are some of the crucial importance pointed out:
+1.	 Easy access for the customers
+2.	Easy account creation and online updates
+3.	Live travel advice
+4.	Receiving travel information online.
+5.	Secured services
 </details>
 <details>
 <summary>
@@ -283,10 +293,5 @@ We can add more details about toruism place & can improve our Home Page.We can o
 We will review their suggestions & if their requirements are valid then we will work on this, By this we can improve our project in future.
 
 </details>
-
-<h3>[Note: Make sure that your report is maximum 10 pages (including cover page). Print (Colored) the report and submit it with spiral bind.]</h3>
-
-
-					
 
 
