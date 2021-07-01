@@ -247,37 +247,32 @@ Tools Used
 
 
 
-To develop this project, we have used the following:
+To develop this project, we have used the following:<br>
 
-•	Microsoft Word
-•	Smart Draw
-•	Snipping Tool
-•	PHP
-•	HTML
-•	Microsoft Word
-•	Smart Draw
-•	Snipping Tool
-•	Brackets
-•	Xampp
-•	VS code
-•	Microsoft Edge
-•	Chrome
+•	Microsoft Word<br>
+•	Smart Draw<br>
+•	Snipping Tool<br>
+•	PHP<br>
+•	HTML<br>
+•	Microsoft Word<br>
+•	Smart Draw<br>
+•	Snipping Tool<br>
+•	Brackets<br>
+•	Xampp<br>
+•	VS code<br>
+•	Microsoft Edge<br>
+•	Chrome<br>
 </details>
 
 <details>
 <summary>
 System Images against the Specification
 </summary>	
-![Captqwdergsrtghryhryghure](https://user-images.githubusercontent.com/50805604/124065019-bf371480-da57-11eb-99f4-6ebefd5bd314.JPG)
-![Captdcfsdfcadfcwsedfure](https://user-images.githubusercontent.com/50805604/124065023-c0684180-da57-11eb-9903-bdf2926bc4e0.JPG)
-![Captdfgdfgdgedgure](https://user-images.githubusercontent.com/50805604/124065024-c100d800-da57-11eb-841c-945c6172444f.JPG)
-
-
-
-
-
-
 Give a screen shot of some GUIs (Midterm project) and write a very small description (Maximum 40 words) for each of the GUIs.
+![Captdcfsdfcadfcwsedfure](https://user-images.githubusercontent.com/50805604/124065332-63b95680-da58-11eb-9870-511492daba92.JPG)
+![Captdfgdfgdgedgure](https://user-images.githubusercontent.com/50805604/124065334-65831a00-da58-11eb-8a0c-136056227570.JPG)
+![Captqwdergsrtghryhryghure](https://user-images.githubusercontent.com/50805604/124065335-65831a00-da58-11eb-8013-340f140e3efa.JPG)
+
 </details>
 <details>
 <summary>
