@@ -267,17 +267,12 @@ To develop this project, we have used the following:
 <details>
 <summary>
 System Images against the Specification
-![screencapture-localhost-HotelAdminSet-Home-php-2021-06-30-07_44_10](https://user-images.githubusercontent.com/50805604/124064469-ab3ee300-da56-11eb-952f-ea49067f34fe.png)
-![screencapture-localhost-HotelAdminSet-View-DhaD-php-2021-06-30-08_21_22](https://user-images.githubusercontent.com/50805604/124064479-b0039700-da56-11eb-8bc4-254868ac5503.png)
-![screencapture-localhost-HotelAdminSet-View-Hotel-System-Home-html-2021-06-30-07_44_33](https://user-images.githubusercontent.com/50805604/124064485-b42fb480-da56-11eb-98b6-3311acf69b79.png)
-![screencapture-localhost-HotelAdminSet-View-Registration-php-2021-06-30-07_44_48](https://user-images.githubusercontent.com/50805604/124064496-b6920e80-da56-11eb-99b6-107f180c1d80.png)
-![screencapture-localhost-HotelAdminSet-View-Login-php-2021-06-30-07_44_59](https://user-images.githubusercontent.com/50805604/124064499-b8f46880-da56-11eb-8408-3454f7cb0ecd.png)
-![screencapture-localhost-HotelAdminSet-View-Registration-php-2021-06-30-07_45_46](https://user-images.githubusercontent.com/50805604/124064511-c01b7680-da56-11eb-9509-3751d283d405.png)
-![screencapture-localhost-HotelAdminSet-View-Dashboard-php-2021-06-30-07_46_18](https://user-images.githubusercontent.com/50805604/124064517-c27dd080-da56-11eb-9b49-d6ae7e4b9322.png)
-![screencapture-localhost-HotelAdminSet-View-addRoom-php-2021-06-30-07_46_30](https://user-images.githubusercontent.com/50805604/124064518-c4479400-da56-11eb-9844-d0692cc26b66.png)
-![screencapture-localhost-HotelAdminSet-View-HA-Customer-Regi-php-2021-06-30-07_46_40](https://user-images.githubusercontent.com/50805604/124064521-c6115780-da56-11eb-839e-57d4d202b76b.png)
-![screencapture-localhost-HotelAdminSet-View-profile-php-2021-06-30-07_46_58](https://user-images.githubusercontent.com/50805604/124064525-c873b180-da56-11eb-91cc-07adc357e801.png)
-![screencapture-localhost-HotelAdminSet-View-edit-profile-php-2021-06-30-07_47_23](https://user-images.githubusercontent.com/50805604/124064528-ca3d7500-da56-11eb-91e4-897c2bc21025.png)
+	
+![Captqwdergsrtghryhryghure](https://user-images.githubusercontent.com/50805604/124065019-bf371480-da57-11eb-99f4-6ebefd5bd314.JPG)
+![Captdcfsdfcadfcwsedfure](https://user-images.githubusercontent.com/50805604/124065023-c0684180-da57-11eb-9903-bdf2926bc4e0.JPG)
+![Captdfgdfgdgedgure](https://user-images.githubusercontent.com/50805604/124065024-c100d800-da57-11eb-841c-945c6172444f.JPG)
+
+
 
 </summary>
 
