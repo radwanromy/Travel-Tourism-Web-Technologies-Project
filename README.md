@@ -4,16 +4,14 @@
 <table align="center" >
                   <p  align="center"><img src="https://github.com/radwanromy/Three.js-WebGL-3D-website-project-By-A_S_M_Radwan/blob/master/aiub.png" class="w3-round"  align="center"></p>
                                                 <h2  align="center">American International University- Bangladesh</h2>
-
+<pre>
 <h3 align="center">CSC 3222: Web Technologies</h3>
-
 <h3 align="center">CO1.1 and CO2.1 Evaluation
 Project Report</h3>
 <h3 align="center">Summer 20-21</h3>
 <h3 align="center">Project Title: Travel & Tourism</h3>
 <h3 align="center">Section: A</h3>
 <br>
-
 <tr><td>
 Student Name
 </td>
@@ -47,7 +45,7 @@ Student Name
 </table>
 </center>
 </section>
-
+</pre>
 <details>
 <summary>
  Introduction
