@@ -226,6 +226,12 @@ Design
 </summary>
 
 Draw an entity diagram of your project here. 
+	
+![fghfghfgh](https://user-images.githubusercontent.com/50805604/124064398-7b8fdb00-da56-11eb-85de-837778785729.png)
+![Captsdefwarefewrfewrfewrferferure](https://user-images.githubusercontent.com/50805604/124064196-1cca6180-da56-11eb-8961-e094ebd09009.JPG)
+![208586568_1490051264708872_2078800307963095179_n](https://user-images.githubusercontent.com/50805604/124064286-41bed480-da56-11eb-827f-1a434422b4e9.jpg)
+![200208245_862814507693268_426094989368035440_n](https://user-images.githubusercontent.com/50805604/124064318-51d6b400-da56-11eb-8359-506a1c5e73b9.jpg)
+
 </details>
 
 
@@ -261,6 +267,18 @@ To develop this project, we have used the following:
 <details>
 <summary>
 System Images against the Specification
+![screencapture-localhost-HotelAdminSet-Home-php-2021-06-30-07_44_10](https://user-images.githubusercontent.com/50805604/124064469-ab3ee300-da56-11eb-952f-ea49067f34fe.png)
+![screencapture-localhost-HotelAdminSet-View-DhaD-php-2021-06-30-08_21_22](https://user-images.githubusercontent.com/50805604/124064479-b0039700-da56-11eb-8bc4-254868ac5503.png)
+![screencapture-localhost-HotelAdminSet-View-Hotel-System-Home-html-2021-06-30-07_44_33](https://user-images.githubusercontent.com/50805604/124064485-b42fb480-da56-11eb-98b6-3311acf69b79.png)
+![screencapture-localhost-HotelAdminSet-View-Registration-php-2021-06-30-07_44_48](https://user-images.githubusercontent.com/50805604/124064496-b6920e80-da56-11eb-99b6-107f180c1d80.png)
+![screencapture-localhost-HotelAdminSet-View-Login-php-2021-06-30-07_44_59](https://user-images.githubusercontent.com/50805604/124064499-b8f46880-da56-11eb-8408-3454f7cb0ecd.png)
+![screencapture-localhost-HotelAdminSet-View-Registration-php-2021-06-30-07_45_46](https://user-images.githubusercontent.com/50805604/124064511-c01b7680-da56-11eb-9509-3751d283d405.png)
+![screencapture-localhost-HotelAdminSet-View-Dashboard-php-2021-06-30-07_46_18](https://user-images.githubusercontent.com/50805604/124064517-c27dd080-da56-11eb-9b49-d6ae7e4b9322.png)
+![screencapture-localhost-HotelAdminSet-View-addRoom-php-2021-06-30-07_46_30](https://user-images.githubusercontent.com/50805604/124064518-c4479400-da56-11eb-9844-d0692cc26b66.png)
+![screencapture-localhost-HotelAdminSet-View-HA-Customer-Regi-php-2021-06-30-07_46_40](https://user-images.githubusercontent.com/50805604/124064521-c6115780-da56-11eb-839e-57d4d202b76b.png)
+![screencapture-localhost-HotelAdminSet-View-profile-php-2021-06-30-07_46_58](https://user-images.githubusercontent.com/50805604/124064525-c873b180-da56-11eb-91cc-07adc357e801.png)
+![screencapture-localhost-HotelAdminSet-View-edit-profile-php-2021-06-30-07_47_23](https://user-images.githubusercontent.com/50805604/124064528-ca3d7500-da56-11eb-91e4-897c2bc21025.png)
+
 </summary>
 
 
@@ -270,12 +288,12 @@ Give a screen shot of some GUIs (Midterm project) and write a very small descrip
 <summary>
 Impact of this Project
 </summary>
-With the evolving society and the increasing access to the internet nowadays it’s much easier and cost efficient to provide services to customers through different apps. Below are some of the crucial importance pointed out:
-1.	 Easy access for the customers
-2.	Easy account creation and online updates
-3.	Live travel advice
-4.	Receiving travel information online.
-5.	Secured services
+With the evolving society and the increasing access to the internet nowadays it’s much easier and cost efficient to provide services to customers through different apps. Below are some of the crucial importance pointed out:<br>
+1.	 Easy access for the customers<br>
+2.	Easy account creation and online updates<br>
+3.	Live travel advice<br>
+4.	Receiving travel information online.<br>
+5.	Secured services<br>
 </details>
 <details>
 <summary>
@@ -283,14 +301,14 @@ Limitations and Possible Future Improvements
 </summary>
 	
 Since we are at the beginning level so there are some limitation in our project.Those limitations will be accomplished over time.We can add
-some features to improve our project.We can add some features for user like:
-1. Special offer 
-2. Family package
-3. Single package 
-4. Holiday plan
-
+some features to improve our project.We can add some features for user like:<br>
+1. Special offer <br>
+2. Family package<br>
+3. Single package <br>
+4. Holiday plan<br>
+<br>
 We can add more details about toruism place & can improve our Home Page.We can open a suggestion section where user can suggested us their requirements,
-We will review their suggestions & if their requirements are valid then we will work on this, By this we can improve our project in future.
+We will review their suggestions & if their requirements are valid then we will work on this, By this we can improve our project in future.<br>
 
 </details>
 
