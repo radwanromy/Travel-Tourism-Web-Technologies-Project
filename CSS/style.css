@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+     background: url('../Photo/4420.jpg');
+    background-color:#FCFCFC;
+    height:100%;
+    width:100%;
+}
+/*
+.cursor{
+    position: fixed;
+    height: 0;
+    width: 0;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;   
+}
+.cursor:before{
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 0;
+}
+.cursor:after{
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100%;
+}
+.cursor:before{
+    height: 40px;
+    width: 40px;
+    border: 2px solid rgb(255, 204, 255);
+    animation: shake 2s infinite;
+    animation: shake2 linear .9s infinite;
+}
+.cursor:after{
+    height: 4px;
+    width: 4px;
+    position: absolute;
+    background-color: white;
+    border: 0;
+}
+*/
+placeholder{
+    color:#00ccff !important;
+}
+h1 { color:#00ccff; }
+h2 { color:#00ccff; }
+h3 { color:#00ccff; }
+h4 { color:#00ccff; }
+p { color:#00ccff; }
+h5 { color:#00ccff; }
+
+body {
+  color: #00ccff;
+    background-image:"../photo/4420.jpg"
+
+}
+::placeholder {
+  color: #00ccff;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #00ccff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #00ccff;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #00ccff;
+  background: yellow;
+}
+
+::selection {
+  color:#00ccff;
+  background: yellow;
+}
+.button {
+  background-color: #00ccff; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 2px;
+  opacity: 0.6;
+  filter: invert(0.8);
+}
+::-webkit-calendar-picker-indicator:hover {
+  opacity: 1
+}
