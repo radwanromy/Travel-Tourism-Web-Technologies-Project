@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <link rel="stylesheet"  href="../css/style.css">
+	<title>User Profile</title>
+</head>
+
+<body bgcolor="#49E6E8">
+
+    <h5 align="right" style="margin-right: 20px; color: blue;"   >
+        <a href="u_login.html">🔙 Back</a>
+    </h5>
+
+	<details>
+
+           <summary style="font-size: 25px">
+               MENU Ⓜ️
+           </summary>
+
+      <h2 style="font-family:courier,arial,helvetica;"  align ="center" >
+
+        <a href="hotel_booking.html" style="color: blue; text-decoration:blink;"  align ="center">🏨 Hotel Booking  </a> <br>
+        <a href="vehicel_rent.html" style="color: blue; text-decoration:blink;"  align ="center">🚗 Vehicel Rent </a><br>
+        <a href="buy_ticket.html" style="color: blue; text-decoration:blink;"  align ="center">🎫 Buy Ticket </a><br>
+        <a href="u_update_info.php" style="color: blue; text-decoration:blink;"  align ="center">👤 Update your Information </a><br>
+        <a href="history.html" style="color: blue; text-decoration:blink;"  align ="center">📜 History </a> 
+    </h2>
+     </details>
+
+  <h1 align="center" style="font-size: 60px; ">Welcome To Your Profile</h1>
+
+  <hr color="black"/>
+
+
+   <table border="0" align="center" cellpadding="10">
+   	
+   	<tr > 
+      <td colspan="2"> 
+      	<h1 style="font-size:40px"> <?=$_SESSION['user']['name']?> </h1>
+		<img src="#" width="100" height="" />  </td>
+   	</tr>
+
+   	<tr>
+   		<td> Date of birth : </td>
+   		<td></td>
+   	</tr>
+
+   	<tr>
+   		<td>Gender:</td>
+   		<td></td>
+   	</tr>
+
+   	<tr>
+   		<td>Nationality:</td>
+   		<td></td>
+   	</tr>
+
+   	<tr>
+   		<td>Address: </td>
+   		<td></td>
+   	</tr>
+
+   	<tr>
+   		<td>Number: </td>
+   		<td></td>
+   	</tr>
+
+   	<tr>
+   		<td>Email Address: </td>
+   		<td></td>
+   	</tr>
+
+   </table>
+
+
+</body>
+</html>

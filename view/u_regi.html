@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration</title>
+    <link rel="stylesheet"  href="../css/style.css">
+</head>
+<body bgcolor="#49E6E8">
+  <!-- action="../controller/u_regicheck.php" -->
+ <form onsubmit="return validation()" method="post" action="../controller/u_regicheck.php"  enctype="multipart/form-data">
+     <table border="0" align="center" cellpadding="10" >
+        <tr>
+
+        <td colspan="2" > 
+            <h1>Register</h1>
+            Please fill this form to create an account. 
+            <br>
+
+         </td>
+
+        </tr>
+
+        <tr>
+
+            <td>Name</td>
+            <td>
+              <input type="text" name="name" placeholder="Enter Your User name" id="name"> <br>
+              <span  class="danger" id="username"></span>
+            </td>
+            
+        </tr>
+
+        <tr>
+            <td>Email</td>
+            <td>
+              <input type="text" name="email"  placeholder="Enter Your Email Address" id="email"><br>
+              <span class="danger" id="useremail"></span>
+            </td>
+            
+        </tr>
+
+        <tr>
+            <td>Mobile Number</td>
+            <td>
+              <input type="Phone" name="phone"  placeholder="Enter Your Number" id="phone"> <br>
+              <span class="danger" id="userphone"></span>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Gender</td>
+            <td> 
+             <input type="radio" name="gender" value="male" checked> Male
+             <input type="radio" name="gender" value="female"> Female
+             <input type="radio" name="gender" value="other"> Other 
+            </td>
+        </tr>
+
+        <tr>
+            <td>Date of Birth</td>
+            <td> 
+              <input type="date" name="dob" id="dob"> <br>
+              <span class="danger"  id="userdob"></span>
+            </td>
+            
+        </tr>
+
+        <tr>
+            <td>Blood Group</td>
+            <td><select name="bg">
+                <option value="">-- select one --</option>
+                <option value="A+">A+</option>
+                <option value="B+">B+</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option></td>
+        </tr>
+
+        <tr>
+            <td>Nationality</td>
+
+            <td>
+
+
+              <select name="nationality">
+              <option value="">--------- select one ---------</option>
+              <option value="Afghan">Afghan</option>
+              <option value="Albanian">Albanian</option>
+              <option value="Algerian">Algerian</option>
+              <option value="American">American</option>
+              <option value="Andorran">Andorran</option>
+              <option value="Angolan">Angolan</option>
+              <option value="Antiguans">Antiguans</option>
+              <option value="Argentinean">Argentinean</option>
+              <option value="Armenian">Armenian</option>
+              <option value="Australian">Australian</option>
+              <option value="Austrian">Austrian</option>
+              <option value="Azerbaijani">Azerbaijani</option>
+              <option value="Bahamian">Bahamian</option>
+              <option value="Bahraini">Bahraini</option>
+              <option value="Bangladeshi">Bangladeshi</option>
+              <option value="Barbadian">Barbadian</option>
+              <option value="Barbudans">Barbudans</option>
+              <option value="Batswana">Batswana</option>
+              <option value="Belarusian">Belarusian</option>
+              <option value="Belgian">Belgian</option>
+              <option value="Belizean">Belizean</option>
+              <option value="Beninese">Beninese</option>
+              <option value="Bhutanese">Bhutanese</option>
+              <option value="Bolivian">Bolivian</option>
+              <option value="Bosnian">Bosnian</option>
+              <option value="Brazilian">Brazilian</option>
+              <option value="British">British</option>
+              <option value="Bruneian">Bruneian</option>
+              <option value="Bulgarian">Bulgarian</option>
+              <option value="Burkinabe">Burkinabe</option>
+              <option value="Burmese">Burmese</option>
+              <option value="Burundian">Burundian</option>
+              <option value="Cambodian">Cambodian</option>
+              <option value="Cameroonian">Cameroonian</option>
+              <option value="Canadian">Canadian</option>
+              <option value="Cape verdean">Cape Verdean</option>
+              <option value="Central african">Central African</option>
+              <option value="Chadian">Chadian</option>
+              <option value="Chilean">Chilean</option>
+              <option value="Chinese">Chinese</option>
+              <option value="Colombian">Colombian</option>
+              <option value="Comoran">Comoran</option>
+              <option value="Congolese">Congolese</option>
+              <option value="Costa rican">Costa Rican</option>
+              <option value="Croatian">Croatian</option>
+              <option value="Cuban">Cuban</option>
+              <option value="Cypriot">Cypriot</option>
+              <option value="Czech">Czech</option>
+              <option value="Danish">Danish</option>
+              <option value="Djibouti">Djibouti</option>
+              <option value="Dominican">Dominican</option>
+              <option value="Dutch">Dutch</option>
+              <option value="East timorese">East Timorese</option>
+              <option value="Ecuadorean">Ecuadorean</option>
+              <option value="Egyptian">Egyptian</option>
+              <option value="Emirian">Emirian</option>
+              <option value="Equatorial guinean">Equatorial Guinean</option>
+              <option value="Eritrean">Eritrean</option>
+              <option value="Estonian">Estonian</option>
+              <option value="Ethiopian">Ethiopian</option>
+              <option value="Fijian">Fijian</option>
+              <option value="Filipino">Filipino</option>
+              <option value="Finnish">Finnish</option>
+              <option value="French">French</option>
+              <option value="Gabonese">Gabonese</option>
+              <option value="Gambian">Gambian</option>
+              <option value="Georgian">Georgian</option>
+              <option value="German">German</option>
+              <option value="Ghanaian">Ghanaian</option>
+              <option value="Greek">Greek</option>
+              <option value="Grenadian">Grenadian</option>
+              <option value="Guatemalan">Guatemalan</option>
+              <option value="Guinea-bissauan">Guinea-Bissauan</option>
+              <option value="Guinean">Guinean</option>
+              <option value="Guyanese">Guyanese</option>
+              <option value="Haitian">Haitian</option>
+              <option value="Herzegovinian">Herzegovinian</option>
+              <option value="Honduran">Honduran</option>
+              <option value="Hungarian">Hungarian</option>
+              <option value="Icelander">Icelander</option>
+              <option value="Indian">Indian</option>
+              <option value="Indonesian">Indonesian</option>
+              <option value="Iranian">Iranian</option>
+              <option value="Iraqi">Iraqi</option>
+              <option value="Irish">Irish</option>
+              <option value="Israeli">Israeli</option>
+              <option value="Italian">Italian</option>
+              <option value="Ivorian">Ivorian</option>
+              <option value="Jamaican">Jamaican</option>
+              <option value="Japanese">Japanese</option>
+              <option value="Jordanian">Jordanian</option>
+              <option value="Kazakhstani">Kazakhstani</option>
+              <option value="Kenyan">Kenyan</option>
+              <option value="Kittian and nevisian">Kittian and Nevisian</option>
+              <option value="Kuwaiti">Kuwaiti</option>
+              <option value="Kyrgyz">Kyrgyz</option>
+              <option value="Laotian">Laotian</option>
+              <option value="Latvian">Latvian</option>
+              <option value="Lebanese">Lebanese</option>
+              <option value="Liberian">Liberian</option>
+              <option value="Libyan">Libyan</option>
+              <option value="Liechtensteiner">Liechtensteiner</option>
+              <option value="Lithuanian">Lithuanian</option>
+              <option value="Luxembourger">Luxembourger</option>
+              <option value="Macedonian">Macedonian</option>
+              <option value="Malagasy">Malagasy</option>
+              <option value="Malawian">Malawian</option>
+              <option value="Malaysian">Malaysian</option>
+              <option value="Maldivan">Maldivan</option>
+              <option value="Malian">Malian</option>
+              <option value="Maltese">Maltese</option>
+              <option value="Marshallese">Marshallese</option>
+              <option value="Mauritanian">Mauritanian</option>
+              <option value="Mauritian">Mauritian</option>
+              <option value="Mexican">Mexican</option>
+              <option value="Micronesian">Micronesian</option>
+              <option value="Moldovan">Moldovan</option>
+              <option value="Monacan">Monacan</option>
+              <option value="Mongolian">Mongolian</option>
+              <option value="Moroccan">Moroccan</option>
+              <option value="Mosotho">Mosotho</option>
+              <option value="Motswana">Motswana</option>
+              <option value="Mozambican">Mozambican</option>
+              <option value="Namibian">Namibian</option>
+              <option value="Nauruan">Nauruan</option>
+              <option value="Nepalese">Nepalese</option>
+              <option value="New zealander">New Zealander</option>
+              <option value="Ni-vanuatu">Ni-Vanuatu</option>
+              <option value="Nicaraguan">Nicaraguan</option>
+              <option value="Nigerien">Nigerien</option>
+              <option value="North korean">North Korean</option>
+              <option value="Northern irish">Northern Irish</option>
+              <option value="Norwegian">Norwegian</option>
+              <option value="Nmani">Omani</option>
+              <option value="Pakistani">Pakistani</option>
+              <option value="Palauan">Palauan</option>
+              <option value="panamanian">Panamanian</option>
+              <option value="papua new guinean">Papua New Guinean</option>
+              <option value="paraguayan">Paraguayan</option>
+              <option value="peruvian">Peruvian</option>
+              <option value="polish">Polish</option>
+              <option value="portuguese">Portuguese</option>
+              <option value="qatari">Qatari</option>
+              <option value="romanian">Romanian</option>
+              <option value="russian">Russian</option>
+              <option value="rwandan">Rwandan</option>
+              <option value="saint lucian">Saint Lucian</option>
+              <option value="salvadoran">Salvadoran</option>
+              <option value="samoan">Samoan</option>
+              <option value="san marinese">San Marinese</option>
+              <option value="sao tomean">Sao Tomean</option>
+              <option value="saudi">Saudi</option>
+              <option value="scottish">Scottish</option>
+              <option value="senegalese">Senegalese</option>
+              <option value="serbian">Serbian</option>
+              <option value="seychellois">Seychellois</option>
+              <option value="sierra leonean">Sierra Leonean</option>
+              <option value="singaporean">Singaporean</option>
+              <option value="slovakian">Slovakian</option>
+              <option value="slovenian">Slovenian</option>
+              <option value="solomon islander">Solomon Islander</option>
+              <option value="somali">Somali</option>
+              <option value="south african">South African</option>
+              <option value="south korean">South Korean</option>
+              <option value="spanish">Spanish</option>
+              <option value="sri lankan">Sri Lankan</option>
+              <option value="sudanese">Sudanese</option>
+              <option value="surinamer">Surinamer</option>
+              <option value="swazi">Swazi</option>
+              <option value="swedish">Swedish</option>
+              <option value="swiss">Swiss</option>
+              <option value="syrian">Syrian</option>
+              <option value="taiwanese">Taiwanese</option>
+              <option value="tajik">Tajik</option>
+              <option value="tanzanian">Tanzanian</option>
+              <option value="thai">Thai</option>
+              <option value="togolese">Togolese</option>
+              <option value="tongan">Tongan</option>
+              <option value="trinidadian or tobagonian">Trinidadian or Tobagonian</option>
+              <option value="tunisian">Tunisian</option>
+              <option value="turkish">Turkish</option>
+              <option value="tuvaluan">Tuvaluan</option>
+              <option value="ugandan">Ugandan</option>
+              <option value="ukrainian">Ukrainian</option>
+              <option value="uruguayan">Uruguayan</option>
+              <option value="uzbekistani">Uzbekistani</option>
+              <option value="venezuelan">Venezuelan</option>
+              <option value="vietnamese">Vietnamese</option>
+              <option value="welsh">Welsh</option>
+              <option value="yemenite">Yemenite</option>
+              <option value="zambian">Zambian</option>
+              <option value="zimbabwean">Zimbabwean</option>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Address</td>
+            <td>
+              <input type="Address" name="address" value="" placeholder="Enter Your Address" id="address"> <br>
+              <span class="danger" id="useraddress"></span>
+            </td>
+            
+        </tr>
+
+        <tr>
+            <td>Password :</td>
+            <td>
+              <input type="password" name="password"  placeholder="Enter Your Password" id="password"> <br> 
+              <span class="danger" id="userpassword"></span>
+            </td> 
+            
+         </tr>
+
+         <tr>
+            <td>Confirm Password :</td>
+            <td>
+              <input type="password" name="conpassword"  placeholder="Enter Your Password" id="conpassword"><br>
+              <span class="danger" id="userconpassword"></span>
+            </td>
+         </tr>
+
+         <tr>
+            <td>Photo</td>
+            <td>
+              <input type="file" name="file" id="file"> <br>
+              <span class="danger" id="userfile"></span>
+            </td>
+            
+        </tr>
+
+        <tr >
+            <td colspan="2" align="center">
+            <input type="submit" name="submit" value="Submit">
+        </td>
+        </tr>
+
+     </table>
+
+     </form>
+
+     <script type="text/javascript">
+       
+       function validation(){
+
+        var user = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var phone = document.getElementById('phone').value;
+        var dob = document.getElementById('dob').value;
+        var address = document.getElementById('address').value;
+        var file = document.getElementById('file').value;
+        var password = document.getElementById('password').value;
+        var conpassword = document.getElementById('conpassword').value;
+
+        if(user == ""){
+           document.getElementById('username').innerHTML="** Please fill the username field";
+           return false;
+        }
+        if((user.length <=2) || (user.length > 20)){
+          document.getElementById('username').innerHTML="** name length must be between 3 to 20";
+           return false;
+        }
+        if( !isNaN(user) ){
+          document.getElementById('username').innerHTML="** only characters are allowed";
+           return false;
+        }
+        if(user != " "){
+           document.getElementById('username').innerHTML=" ";
+        }
+        
+
+        if(email == ""){
+           document.getElementById('useremail').innerHTML="** Please fill the email field";
+           return false;
+        }
+        if(email.indexOf('@')<=0){
+           document.getElementById('useremail').innerHTML="** enter a valid email";
+           return false;
+        }
+        if(email !=" "){
+           document.getElementById('useremail').innerHTML=" ";
+        }
+
+
+        if(phone == ""){
+           document.getElementById('userphone').innerHTML="** Please enter yoer mobile number";
+           return false;
+        }
+        if(isNaN(phone)){
+           document.getElementById('userphone').innerHTML="** enter digits only";
+           return false;
+        }
+        if(phone.length !==11){
+           document.getElementById('userphone').innerHTML="** Number must be 11 digits only";
+           return false;
+        }
+        if(phone !== ""){
+           document.getElementById('userphone').innerHTML=" ";
+        }
+
+
+        if(dob == ""){
+           document.getElementById('userdob').innerHTML="** Please fill you date of birth";
+           return false;
+        }
+        if(dob !==""){
+           document.getElementById('userdob').innerHTML=" ";
+        }
+
+        if(address == ""){
+           document.getElementById('useraddress').innerHTML="** Please enter your address";
+           return false;
+        }
+        if(address !== ""){
+           document.getElementById('useraddress').innerHTML=" ";
+        }
+
+        
+
+        if(password == ""){
+           document.getElementById('userpassword').innerHTML="** Please fill the password field";
+           return false;
+        }
+        if((password.length <=2) || (password.length > 10)){
+          document.getElementById('userpassword').innerHTML="** password length must be between 3 to 20";
+           return false;
+        }
+        if(password !== ""){
+           document.getElementById('userpassword').innerHTML=" ";
+        }
+        if(conpassword == ""){
+           document.getElementById('userconpassword').innerHTML="** Please fill the confirm password field";
+           return false;
+        }
+        if (password!=conpassword) {
+          document.getElementById('userconpassword').innerHTML="** Password are not matching";
+           return false;
+        }
+        if(conpassword !== ""){
+           document.getElementById('userconpassword').innerHTML=" ";
+        }
+
+        if(file == ""){
+           document.getElementById('userfile').innerHTML="** Please fill the username field";
+           return false;
+        }
+        if(file !== ""){
+           document.getElementById('userfile').innerHTML=" ";
+        }
+       }
+ 
+     </script>
+</body>
+</html>
