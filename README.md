@@ -125,6 +125,7 @@ Feature List
 <summary>
 Customer\User Account
 </summary>
+
 	
 In this project the “Customer\User Account” has the following features:
 1)	Can sign up as a customer.
