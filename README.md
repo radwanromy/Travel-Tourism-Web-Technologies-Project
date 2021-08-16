@@ -36,11 +36,6 @@ Student Name
 <td>
 19-39659-1
 </td></tr>
-<tr><td><a href="https://github.com/Pushon-19-39650-1" >Jeba Sadia Pushon    	</a>
-
-</td>
-<td>
-	19-39650-1
 </td></tr>
 </table>
 </center>
