@@ -13,7 +13,7 @@
 
 		<tr>
 			<td colspan="2"> <section align ="right"><h2>
-			<img src="Image/Capturcsdfcsde.JPG" width="160" height="90" align ="left"/>
+			<img src="Image/logo.JPG" width="160" height="90" align ="left"/>
 				<details>
 				    <summary>
 				        Admin Systems

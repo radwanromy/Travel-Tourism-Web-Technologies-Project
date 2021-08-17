@@ -7,11 +7,18 @@
  <script type="text/javascript" src="../JS/cursor.js">  </script>
 	<body >
 	
-
+		 <style>
+body {
+  background-image: url('../Photo/pro4.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
 	<table height = "50px" width = "100%"  border="0">
 		<tr>
 			<td> <section align ="right"><h2>
-		  <a href=../Home.php> <img src="../Image/Capturcsdfcsde.JPG" width="180" height="080" align ="left"/></a>
+		  <a href=../Home.php> <img src="../Image/logo.JPG" width="180" height="080" align ="left"/></a>
 				<a href = "Hotel_System_Home.html">Home</a>|
 				<a href = "Login.php">Login</a>|
 				<a href="Registration.php"> Registration </a> </h2>

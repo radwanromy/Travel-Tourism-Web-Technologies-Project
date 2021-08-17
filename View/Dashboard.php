@@ -21,12 +21,19 @@
    <link rel="stylesheet" href="../CSS/style.css" />
     </head>
 	<body>
-
+		 <style>
+body {
+  background-image: url('../Photo/log2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
 
 	<table height = "50px" width = "100%"  border="0">
 
 		<tr height = "100px">
-<td colspan="2" > <section align="right">  <a href=../Home.php> <img src="../Image/Capturcsdfcsde.JPG" width="180" height="080" align ="left"/></a>
+<td colspan="2" > <section align="right">  <a href=../Home.php> <img src="../Image/logo.JPG" width="180" height="080" align ="left"/></a>
 				 <h1>Logged in as <a href="../View/profile.php"><?=$_SESSION['user']['name']?></a><a href="../Controller/logout.php">| Logout</a> </h1>
 			</section>
 

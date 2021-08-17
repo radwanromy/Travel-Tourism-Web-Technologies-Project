@@ -14,11 +14,18 @@
 <title>Dashboard Page</title>
     </head>
 	<body>
-
+ <style>
+body {
+  background-image: url('../Photo/regi.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
 
 	<table height = "50px" width = "100%"  border="0">
 		<tr height = "100px">
-<td colspan="2" > <section align="right">  <a href=../Home.php> <img src="../Image/Capturcsdfcsde.JPG" width="180" height="080" align ="left"/></a>
+<td colspan="2" > <section align="right">  <a href=../Home.php> <img src="../Image/logo.JPG" width="180" height="080" align ="left"/></a>
 				 <h1>Logged in as<a href="../View/profile.php"> <?=$emp['name'] ?> </a><a href="../Controller/logout.php">| Logout</a> </h1>
 			</section>
 			
@@ -37,14 +44,14 @@
 		<table width="100%" cellpadding="0" cellspacing="0">
 			<tr>
 				<td>Name</td>
-				<td>:</td>
+				<td></td>
 				<td><input name="name" type="text" placeholder="Enter Your User name" id="name">  </td>
 				<td></td>
 			</tr>		
 			<tr><td colspan="4"><br></td></tr>
 			<tr>
 				<td>Email</td>
-				<td>:</td>
+				<td></td>
 				<td>
 					<input name="email" type="text"  placeholder="Enter Your Email Address" id="email" onkeyup="emailValidity()" >
 					<abbr title="hint: sample@example.com"><b>i</b></abbr>
@@ -54,21 +61,21 @@
 			<tr><td colspan="4"><br></td></tr>
 			<tr>
 				<td>User Name</td>
-				<td>:</td>
+				<td></td>
 				<td><input name="username" id= 'username' type="text"></td>
 				<td></td>
 			</tr>		
 			<tr><td colspan="4"><br></td></tr>
 			<tr>
 				<td>Password</td>
-				<td>:</td>
+				<td></td>
 				<td><input id='password' name="password" type="password" id='password'></td>
 				<td></td>
 			</tr>		
 			<tr><td colspan="4"><br></td></tr>
 			<tr>
 				<td>Confirm Password</td>
-				<td>:</td>
+				<td></td>
 				<td><input  id='cpassword' name="confirmPassword" type="password"></td>
 				<td></td>
 			</tr>	

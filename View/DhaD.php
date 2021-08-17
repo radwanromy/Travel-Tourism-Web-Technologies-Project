@@ -4,7 +4,14 @@
 <head>
 <link rel="stylesheet" href="../CSS/style.css" />
  <script type="text/javascript" src="../JS/cursor.js">  </script>
-	<body>
+	<body>		 <style>
+body {
+  background-image: url('../Photo/pro4.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
 	</body>
 
 
@@ -18,7 +25,7 @@
 				     <a href = "Login.html">Travel Agency Admin&nbsp;</a><br>
 				      <a href = "Login.html">Vehicles Rental Service Admin&nbsp;</a><br>
 				</details>
-		  <a href=../Home.php> <img src="../Image/Capturcsdfcsde.JPG" width="180" height="080" /></a>
+		  <a href=../Home.php> <img src="../Image/logo.JPG" width="180" height="080" /></a>
 				<a href = "Hotel_System_Home.html">Home</a>|
 				<a href = "Login.html">Login</a>|
 				<a href="Registration.html"> Registration </a> </h2>

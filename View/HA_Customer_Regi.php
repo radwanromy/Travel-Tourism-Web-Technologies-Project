@@ -9,7 +9,7 @@ session_start();
 <head>
 
 <link rel="stylesheet" href="../CSS/style.css" />
-<script type="text/javascript" src="../JS/cursor.js">  </script>
+
  <script>
 
     </script>
@@ -19,10 +19,18 @@ session_start();
 
 	<body>
 	</body>
+<style>
+body {
+  background-image: url('../Photo/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
 
 	<table height = "50px" width = "100%"  border="0">
 		<tr height = "100px">
-<td colspan="2" > <section align='right'>  <a href=../Home.php> <img src="../Image/Capturcsdfcsde.JPG" width="180" height="080" align ="left"/></a>
+<td colspan="2" > <section align='right'>  <a href=../Home.php> <img src="../Image/logo.JPG" width="180" height="080" align ="left"/></a>
 				 <h1>Logged in as<a href="../View/profile.php"> <?=$_SESSION['user']['name'] ?> </a><a href="../Controller/logout.php">| Logout</a> </h1>
 			</section>
 		
@@ -267,7 +275,7 @@ function showRoom(str) {
                            <input type="button" name="roomNo" value="<?= $rooms[$i]['roomNo']?>" hidden >
 				        <input  type="submit" name="sub" value="Edit Room" placeholder="" >
 						</form>
-						<a href="edit.php?roomid=<?= $rooms[$i]['roomid']?>"> edit </a> |
+						
 						 
 						<form method="GET" action="../View/deleteRoom.php">
                            <input type="button" name="roomNo" value="<?= $rooms[$i]['roomNo']?>" hidden >

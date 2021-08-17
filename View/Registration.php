@@ -8,11 +8,19 @@
 <!-- <script type="text/javascript" src="../JS/validation.js"> </script> -->
 </head>
 	<body>
+		 <style>
+body {
+  background-image: url('../Photo/regi.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
 	</body>
 	<table height = "50px" width = "100%"  border="0">
 		<tr>
 			<td> <section align ="right"><h2>
-		  <a href=../Home.php> <img src="../Image/Capturcsdfcsde.JPG" width="180" height="080" align ="left"/></a>
+		  <a href=../Home.php> <img src="../Image/logo.JPG" width="180" height="080" align ="left"/></a>
 				<a href = "Hotel_System_Home.html">Home</a>|
 				<a href = "Login.php">Login</a>|
 				<a href="Registration.php"> Registration </a> </h2>
@@ -29,7 +37,7 @@
 		<table width="100%" cellpadding="0" cellspacing="0" align="center">
 			<tr align="center">
 				<td>Name</td>
-				<td>:</td>
+				<td></td>
 				<td><input name="name" type="text" placeholder="Enter Your Full Name" id="name"  onkeyup ='namee(this.value)'>  
 				
 		<p id="namee"></p>
@@ -54,7 +62,7 @@
 			<tr><td colspan="4"><br></td></tr>
 			<tr align="center">
 				<td>Email</td>
-				<td>:</td>
+				<td></td>
 				<td>
 					<input name="email" type="text"  placeholder="Enter Your Email Address" id="email" onkeyup="emailValidity()" >
 					<abbr title="hint: sample@example.com"><b>i</b></abbr>
@@ -64,21 +72,21 @@
 			<tr><td colspan="4"><br></td></tr>
 			<tr align="center">
 				<td>User Name</td>
-				<td>:</td>
+				<td></td>
 				<td><input name="username" id= 'username'  placeholder="Enter Your Username"  type="text"></td>
 				<td></td>
 			</tr>		
 			<tr><td colspan="4"><br></td></tr>
 			<tr align="center">
 				<td>Password</td>
-				<td>:</td>
+				<td></td>
 				<td><input id='password' name="password" type="password" id='password'  placeholder="Enter Your Password" ></td>
 				<td></td>
 			</tr>		
 			<tr><td colspan="4"><br></td></tr>
 			<tr align="center">
 				<td>Confirm Password</td>
-				<td>:</td>
+				<td></td>
 				<td><input  id='cpassword' name="confirmPassword" type="password"  placeholder="Re-Type Your Password" ></td>
 				<td></td>
 			</tr>	

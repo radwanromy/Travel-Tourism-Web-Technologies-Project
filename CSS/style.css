@@ -3,48 +3,13 @@
     margin: 0px;
 }
 body{
-     background: url('../Photo/4420.jpg');
-    background-color:#FCFCFC;
+   font-family: 'Roboto', sans-serif; 
+ background-image: url("../Photo/background.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
     height:100%;
     width:100%;
 }
-/*
-.cursor{
-    position: fixed;
-    height: 0;
-    width: 0;
-    display: block;
-    align-items: center;
-    justify-content: center;
-    pointer-events: none;   
-}
-.cursor:before{
-    content: "";
-    display: block;
-    position: absolute;
-    border-radius: 0;
-}
-.cursor:after{
-    content: "";
-    display: block;
-    position: absolute;
-    border-radius: 100%;
-}
-.cursor:before{
-    height: 40px;
-    width: 40px;
-    border: 2px solid rgb(255, 204, 255);
-    animation: shake 2s infinite;
-    animation: shake2 linear .9s infinite;
-}
-.cursor:after{
-    height: 4px;
-    width: 4px;
-    position: absolute;
-    background-color: white;
-    border: 0;
-}
-*/
 placeholder{
     color:#00ccff !important;
 }
@@ -57,7 +22,10 @@ h5 { color:#00ccff; }
 
 body {
   color: #00ccff;
-    background-image:"../photo/4420.jpg"
+
+ background-image: url("../Photo/background.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
 
 }
 ::placeholder {
@@ -85,7 +53,7 @@ body {
 .button {
   background-color: #00ccff; /* Green */
   border: none;
-  color: white;
+  color: ;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -103,3 +71,10 @@ body {
 ::-webkit-calendar-picker-indicator:hover {
   opacity: 1
 }
+a {
+  color: #00ccff;
+}
+
+
+
+

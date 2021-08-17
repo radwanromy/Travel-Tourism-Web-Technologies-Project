@@ -27,7 +27,7 @@ require_once('../Model/empDB.php');
                     $_SESSION['flag'] = true;
                 $_FILES['flag']['flag'] = true;
 					setcookie('flag', 'true', time()+3600, '/');
-               $user=['eid'=> $emp['eid'],'name'=> $emp['name'],'username'=> $emp['username'], 'email'=> $emp['email'],'password'=> $emp['password'], 'gender'=>$emp['gender'], 'day'=>$emp['day'], 'month'=> $emp['month'], 'year'=> $emp['year'], 'filename'=> $emp['filename']];
+               $user=['eid'=> $emp['eid'],'name'=> $emp['name'],'username'=> $emp['username'], 'email'=> $emp['email'],'password'=> $emp['password'], 'gender'=>$emp['gender'], 'day'=>$emp['day'], 'month'=> $emp['pmonth'], 'year'=> $emp['year'], 'filename'=> $emp['filename']];
                 
            $_SESSION['user']=$user;
               
